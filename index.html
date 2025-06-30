@@ -1,0 +1,452 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietocare</title>
+    <!-- cust css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- cust responsive css link -->
+    <link rel="stylesheet" href="./responsive.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- fontawsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="">
+                        <img src="./image/logo.png" loading="lazy" alt="logo">
+                    </a>                    
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="program.html">programs</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="testimonials.html">testimonials</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+                <div class="btn">
+                    <a href="contact.html" class="cmn-btn">contact us<i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="hamburger" id="hamburger" onclick="toggleMenu();">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar1"></div>
+                        <div class="bar bar1"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="head">
+                    <div class="h3-title">WELCOME TO</div>
+                    <h1>LIFE <span>HEALTH</span>
+                    FITNESS</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                </div>
+                <div class="btn">
+                    <a href="" class="cmn-btn">get call <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="" class="vdo"> 
+                    <span>play video</span>
+                    <i class="fa-solid fa-circle-play"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="program">
+            <div class="container">
+                <div class="head">
+                    <h2>our <span>program</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                                <img src="./image/prog-1.png" loading="lazy" alt="prog-1">
+                            </figure>
+                            <div class="content">
+                                <h3>Customized Diet Program</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                                <img src="./image/prog-2.png" loading="lazy" alt="prog-2">
+                            </figure>
+                            <div class="content">
+                                <h3>Customized Workout Program</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                                <img src="./image/prog-3.png" loading="lazy" alt="prog-3">
+                            </figure>
+                            <div class="content">
+                                <h3>7 Days Lean and Clean – Detox & Yoga</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <a href="#">read more <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">                
+                <div class="row">
+                    <div class="col-50">
+                        <figure>
+                            <img src="./image/abt-1.png" loading="lazy" alt="abt-1">
+                        </figure>
+                    </div>
+                    <div class="col-50">
+                        <h2>about <span>us</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                        <a href="#" class="cmn-btn">get a call <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <h3>about us</h3>
+            </div>
+        </section>
+        <section class="create">
+            <div class="container">
+                <h2>created <span>for whom?</span></h2>
+                <h3>created</h3>
+                    <div class="swiper-btn">
+                        <div class="next">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                        <div class="prev">
+                            <i class="fa-solid fa-circle-chevron-left"></i>
+                        </div>
+                    </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-1.png" loading="lazy" alt="create-c-1">
+                        </figure>
+                        <p>Don't wish to hide under clothes that make you look or feel bad.</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-2.png" loading="lazy" alt="create-c-2">
+                        </figure>
+                        <p>Looking for companions on their fitness journey</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-3.png" loading="lazy" alt="create-c-3">
+                        </figure>
+                        <p>Tired of procrastinating and look for Mondays</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-4.png" loading="lazy" alt="create-c-4">
+                        </figure>
+                        <p>Looking for sustainable ways to achieve their goals</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-1.png" loading="lazy" alt="create-c-5">
+                        </figure>
+                        <p>Wish to value health over shortcuts</p> 
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-3.png" loading="lazy" alt="create-c-3">
+                        </figure>
+                        <p>Tired of procrastinating and look for Mondays</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-4.png" loading="lazy" alt="create-c-4">
+                        </figure>
+                        <p>Looking for sustainable ways to achieve their goals</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-2.png" loading="lazy" alt="create-c-2">
+                        </figure>
+                        <p>Tired of procrastinating and look for Mondays</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-4.png" loading="lazy" alt="create-c-4">
+                        </figure>
+                        <p>Looking for sustainable ways to achieve their goals</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <figure>
+                            <img src="./image/create-c-2.png" loading="lazy" alt="create-c-2">
+                        </figure>
+                        <p>Wish to value health over shortcuts</p>
+                      </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="stories">
+            <div class="container">
+                <div class="head">
+                    <h2>our <span>stories</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-1.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-2.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>   
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-3.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>   
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-1.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-2.png" loading="lazy" alt="stories-c-2">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-3.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-1.png" loading="lazy" alt="stories-c-1">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-2.png" loading="lazy" alt="stories-c-2">
+                            </figure>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <figure>
+                                <img src="./image/stories-c-3.png" loading="lazy" alt="stories-c-3">
+                            </figure>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </section>
+        <section class="face">
+            <div class="container">
+                <div class="row">
+                    <div class="col-40">
+                        <figure>
+                            <img src="./image/face-c-1.png" loading="lazy" alt="face-c-1">
+                        </figure>
+                        <!-- <img src="./image/face-c-2.png" alt=""> -->
+                    </div>
+                    <div class="col-50">
+                        <h2>let's <span>face it</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                        <div class="upper">
+                            <figure>
+                                <img src="./image/decade.png" loading="lazy" alt="decade">
+                            </figure>
+                            <div class="decade">
+                                <h3>A Decade of experience</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pharetra ipsum augue, sit amet pretium.</p>
+                            </div>
+                        </div>
+                        <div class="lower">
+                            <figure>
+                                <img src="./image/complete.png" loading="lazy" alt="complete">
+                            </figure>
+                            <div class="complete">
+                                <h3>500+ projects completed</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pharetra ipsum augue, sit amet pretium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>  
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-20">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./image/f-logo.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <div class="h3-title">quick links</div>
+                    <ul class="quick-links">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="program.html">programs</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="testimonials.html">testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <div class="h3-title">
+                        useful links
+                    </div>
+                    <ul class="useful-links">
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">refund policy</a></li>
+                        <li><a href="#">terms and conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <div class="h3-title">
+                        programs
+                    </div>
+                    <ul class="programs">
+                        <li><a href="#">weight loss program</a></li>
+                        <li><a href="#">customized workout plan</a></li>
+                        <li><a href="#">weight gain program</a></li>
+                    </ul>
+                </div>
+                <div class="col-20">
+                    <div class="h3-title">contact details</div>
+                    <ul class="contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>lorem ipsum, Union City, 07087, lorem</span>
+                        </li>
+                        <li>
+                            <a href="mailto:Team@dietocare.co.in"> <i class="fa-solid fa-envelope"></i><span>Team@dietocare.co.in</span>                              </a>
+                        </li>
+                        <li>
+                            <a href="tel:201-620-6166"> <i class="fa-solid fa-phone"></i><span>201-620-6166</span>                              </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="footer-lower">
+                <a href="index.html">
+                    Copyright &copy; 2024,
+                    <span>Dietocare</span>
+                    -All rights reserved.
+                </a>
+            </div>       
+        </div>
+    </footer> 
+
+
+    <!-- cust js link -->
+    <script src="./script.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- create Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".create .mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          navigation: {
+            nextEl: ".next",
+            prevEl: ".prev",
+          },
+        breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      },
+        });
+      </script>
+    
+
+    <!-- stories Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".stories .mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+        });
+    </script>
+</body>
+</html>
